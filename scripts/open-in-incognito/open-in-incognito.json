@@ -1,0 +1,12 @@
+{
+  "script": "on BrowserDeputyScript(input, link, title)\n    tell application id \"com.google.Chrome\"\n        make new window with properties {mode:\"incognito\"}\n        open location link\n    end tell\nend BrowserDeputyScript",
+  "iconColor": "Text Color",
+  "availablity": "App",
+  "requiredAppIdentifier": "com.google.Chrome",
+  "acceptInput": false,
+  "keyword": "OI",
+  "identifier": "E0BA4A66-BCEB-4A38-A47A-B6E4E6D5640B",
+  "description": "Open current tab in Incognito Mode",
+  "icon": "eye.slash.circle.fill",
+  "name": "Open in Incognito"
+}

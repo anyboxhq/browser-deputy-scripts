@@ -1,0 +1,12 @@
+{
+  "script": "on BrowserDeputyScript(input, link, title)\n\ttell application \"Finder\"\n\t\tset frontWin to URL of folder of front window\n\t\tset len to length of frontWin\n\t\tset pather to text 8 thru (len - 1) of frontWin\n\t\ttell application \"iTerm\"\n\t\t\tlaunch \"iTerm\"\n\t\t\tdelay 1\n\t\t\tset newWindow to (create window with default profile)\n\t\t\ttell current session of newWindow\n\t\t\t\twrite text \"cd \" & pather\n\t\t\tend tell\n\t\tend tell\n\tend tell\nend BrowserDeputyScript",
+  "iconColor": "Accent Color",
+  "availablity": "App",
+  "requiredAppIdentifier": "com.apple.finder",
+  "acceptInput": false,
+  "keyword": "",
+  "identifier": "7666A63F-3E5F-4249-A630-0D4BE02B6BE8",
+  "description": "Open current Finder path in iTerm",
+  "icon": "terminal.fill",
+  "name": "Open In iTerm"
+}
