@@ -8,13 +8,11 @@ A repository for users of Browser Deputy to share their Apple Script commands.
 
 1. Create a new folder under `scripts`. The name should be lowercased and separated by hyphen (-).
 
-2. Create `script-name`.md. Fill in name, description, Apple Script, a screenshot of script in the Settings of Browser Deputy, and a download link to the exported JSON file.
+2. Create `script-name`.md. Fill in name, description, Apple Script, and a download link to the exported JSON file.
 
-3. Add a PNG screenshot with the same name under the folder.
+3. Add the exported JSON file under the folder.
 
-4. Add the exported JSON file under the folder.
-
-5. Add your new script to the **Available Scripts** section of README.md.
+4. Add your new script to the **Available Scripts** section of README.md. Add new app section if needed.
 
 Go to the [`scripts`](/scripts/) folder to see the real world examples.
 
