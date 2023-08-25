@@ -1,5 +1,5 @@
 {
-  "script": "on BrowserDeputyScript(input, link, title)\n    tell application id \"com.google.Chrome\"\n        make new window with properties {mode:\"incognito\"}\n        open location link\n    end tell\nend BrowserDeputyScript",
+  "script": "on BrowserDeputyScript(input, link, title)\n    tell application id \"com.google.Chrome\"\n        make new window with properties {mode:\"incognito\"}\n        set URL of tab 1 of window 1 to link\n    end tell\nend BrowserDeputyScript",
   "iconColor": "Text Color",
   "availablity": "App",
   "requiredAppIdentifier": "com.google.Chrome",
